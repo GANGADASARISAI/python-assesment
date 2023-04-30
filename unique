@@ -33,6 +33,22 @@ Book_Python_Libraries_Cookbook=855.00
 Book_Data_Science_in_Python=645.00
 taxes=0.12
 Delivery_Charges=250.00
+
+
+----------------
+2)Book_Introduction_to_Python_Programming=499.00
+n1=int(input("enter a number"))
+Book_Python_Libraries_Cookbook=855.00
+n2=int(input("enter a number"))
+Book_Data_Science_in_Python=645.00
+n3=int(input("enter a number"))
+taxes=0.12
+Delivery_Charges=250.00
+t1=Book_Introduction_to_Python_Programming*n1+Book_Python_Libraries_Cookbook*n2+Book_Data_Science_in_Python*n3
+Amount=t1*taxes
+total_price=t1+Amount+Delivery_Charges
+print("total invoice amount: Rs {:.2f}".format(total_price))
+
 t1=Book_Introduction_to_Python_Programming+Book_Python_Libraries_Cookbook+Book_Data_Science_in_Python
 Amount=t1*taxes
 total_price=t1+Amount+Delivery_Charges
